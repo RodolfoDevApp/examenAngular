@@ -1,0 +1,15 @@
+<mat-card>
+    <mat-card-header>
+        <div mat-card-avatar></div>
+        <mat-card-title>Nombre:</mat-card-title>
+        <mat-card-subtitle>{{objPlatillo.strMeal}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+
+        <img mat-card-image [src]="objPlatillo.strMealThumb" alt="Angular material Card">
+        <hr>
+        <iframe width="560" height="315" [src]=" safeURL " frameborder="0" allowfullscreen></iframe>
+
+    </mat-card-content>
+
+</mat-card>

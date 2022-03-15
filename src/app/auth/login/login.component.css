@@ -1,0 +1,29 @@
+.body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;
+    max-width: 330px;
+    text-align: center;
+}
+
+.ancho {
+    width: 80%;
+}
+
+.spinner {
+    margin: 0 auto;
+}
+
+form {
+    background-color: rgb(233, 240, 238);
+    padding: 1em;
+}

@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+
+    <span class="gap" routerLink="/inicio">Bienvenido</span>
+    <!--TITULO DEL MENU-->
+
+    <span class="filler"></span>
+    <button mat-button routerLink="/platillos-lista" value="Platillos" matTooltip="muestra platillos">
+        Platillos
+        <mat-icon>account_circle</mat-icon>
+    </button>
+    <a mat-button routerLink="/ingrediente-lista" class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" matTooltip="muestre ingredientes">
+        Ingredientes populares
+        <mat-icon>account_circle</mat-icon>
+    </a>
+    <button mat-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" matTooltip="consulta perfil">
+        Perfil        
+        <mat-icon>account_circle</mat-icon>
+    </button>
+
+</mat-toolbar>
